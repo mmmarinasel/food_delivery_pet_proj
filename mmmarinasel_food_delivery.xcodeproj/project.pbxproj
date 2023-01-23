@@ -3,17 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		41DB57EA297E925800EC4233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB57E9297E925800EC4233 /* AppDelegate.swift */; };
 		41DB57EC297E925800EC4233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB57EB297E925800EC4233 /* SceneDelegate.swift */; };
 		41DB57EE297E925800EC4233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB57ED297E925800EC4233 /* ViewController.swift */; };
-		41DB57F1297E925800EC4233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DB57EF297E925800EC4233 /* Main.storyboard */; };
 		41DB57F4297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41DB57F2297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodeld */; };
 		41DB57F6297E925D00EC4233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DB57F5297E925D00EC4233 /* Assets.xcassets */; };
 		41DB57F9297E925D00EC4233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DB57F7297E925D00EC4233 /* LaunchScreen.storyboard */; };
+		41DB5801297E92C900EC4233 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB5800297E92C900EC4233 /* TabBarController.swift */; };
+		E445CF3C8AA04A097DC4E988 /* Pods_mmmarinasel_food_delivery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB4D9EF5B42F81342870008 /* Pods_mmmarinasel_food_delivery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,14 @@
 		41DB57E9297E925800EC4233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41DB57EB297E925800EC4233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41DB57ED297E925800EC4233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41DB57F0297E925800EC4233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41DB57F3297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mmmarinasel_food_delivery.xcdatamodel; sourceTree = "<group>"; };
 		41DB57F5297E925D00EC4233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41DB57F8297E925D00EC4233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41DB57FA297E925D00EC4233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41DB5800297E92C900EC4233 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4CB4D9EF5B42F81342870008 /* Pods_mmmarinasel_food_delivery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmmarinasel_food_delivery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2667FBAE09FBAD32A421DF /* Pods-mmmarinasel_food_delivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmmarinasel_food_delivery.release.xcconfig"; path = "Target Support Files/Pods-mmmarinasel_food_delivery/Pods-mmmarinasel_food_delivery.release.xcconfig"; sourceTree = "<group>"; };
+		B4F24F176A00FEE4F28BF66C /* Pods-mmmarinasel_food_delivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmmarinasel_food_delivery.debug.xcconfig"; path = "Target Support Files/Pods-mmmarinasel_food_delivery/Pods-mmmarinasel_food_delivery.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E445CF3C8AA04A097DC4E988 /* Pods_mmmarinasel_food_delivery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41909CC3297EB7E4002D43D4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		41909CC4297EB7ED002D43D4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		41909CC5297EB7F4002D43D4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		41DB57DD297E925800EC4233 = {
 			isa = PBXGroup;
 			children = (
 				41DB57E8297E925800EC4233 /* mmmarinasel_food_delivery */,
 				41DB57E7297E925800EC4233 /* Products */,
+				D9B4B3F457DD400FC8125526 /* Pods */,
+				D0ED1192A890D98FF42ECDD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +86,36 @@
 		41DB57E8297E925800EC4233 /* mmmarinasel_food_delivery */ = {
 			isa = PBXGroup;
 			children = (
+				41909CC5297EB7F4002D43D4 /* Helper */,
+				41909CC4297EB7ED002D43D4 /* Service */,
+				41909CC3297EB7E4002D43D4 /* Screens */,
 				41DB57E9297E925800EC4233 /* AppDelegate.swift */,
 				41DB57EB297E925800EC4233 /* SceneDelegate.swift */,
+				41DB5800297E92C900EC4233 /* TabBarController.swift */,
 				41DB57ED297E925800EC4233 /* ViewController.swift */,
-				41DB57EF297E925800EC4233 /* Main.storyboard */,
 				41DB57F5297E925D00EC4233 /* Assets.xcassets */,
 				41DB57F7297E925D00EC4233 /* LaunchScreen.storyboard */,
 				41DB57FA297E925D00EC4233 /* Info.plist */,
 				41DB57F2297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodeld */,
 			);
 			path = mmmarinasel_food_delivery;
+			sourceTree = "<group>";
+		};
+		D0ED1192A890D98FF42ECDD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB4D9EF5B42F81342870008 /* Pods_mmmarinasel_food_delivery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B4B3F457DD400FC8125526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4F24F176A00FEE4F28BF66C /* Pods-mmmarinasel_food_delivery.debug.xcconfig */,
+				AF2667FBAE09FBAD32A421DF /* Pods-mmmarinasel_food_delivery.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41DB57FD297E925D00EC4233 /* Build configuration list for PBXNativeTarget "mmmarinasel_food_delivery" */;
 			buildPhases = (
+				96F60B4F27A6E48D3D829C44 /* [CP] Check Pods Manifest.lock */,
 				41DB57E2297E925800EC4233 /* Sources */,
 				41DB57E3297E925800EC4233 /* Frameworks */,
 				41DB57E4297E925800EC4233 /* Resources */,
+				41909CC2297EB016002D43D4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -106,7 +156,7 @@
 				};
 			};
 			buildConfigurationList = 41DB57E1297E925800EC4233 /* Build configuration list for PBXProject "mmmarinasel_food_delivery" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -130,11 +180,52 @@
 			files = (
 				41DB57F9297E925D00EC4233 /* LaunchScreen.storyboard in Resources */,
 				41DB57F6297E925D00EC4233 /* Assets.xcassets in Resources */,
-				41DB57F1297E925800EC4233 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41909CC2297EB016002D43D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		96F60B4F27A6E48D3D829C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mmmarinasel_food_delivery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41DB57E2297E925800EC4233 /* Sources */ = {
@@ -144,6 +235,7 @@
 				41DB57EE297E925800EC4233 /* ViewController.swift in Sources */,
 				41DB57EA297E925800EC4233 /* AppDelegate.swift in Sources */,
 				41DB57F4297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodeld in Sources */,
+				41DB5801297E92C900EC4233 /* TabBarController.swift in Sources */,
 				41DB57EC297E925800EC4233 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +243,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41DB57EF297E925800EC4233 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41DB57F0297E925800EC4233 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41DB57F7297E925D00EC4233 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +370,7 @@
 		};
 		41DB57FE297E925D00EC4233 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F24F176A00FEE4F28BF66C /* Pods-mmmarinasel_food_delivery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,9 +381,9 @@
 				INFOPLIST_FILE = mmmarinasel_food_delivery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +399,7 @@
 		};
 		41DB57FF297E925D00EC4233 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2667FBAE09FBAD32A421DF /* Pods-mmmarinasel_food_delivery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,9 +410,9 @@
 				INFOPLIST_FILE = mmmarinasel_food_delivery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
