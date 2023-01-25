@@ -4,23 +4,41 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
+
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        let tabBarController = UITabBarController()
+        let firstVC = FoodListViewController()
+        firstVC.tabBarItem = UITabBarItem(title: "Menu", image: UIImage(systemName: "fork.knife"), tag: 0)
+        let secondVC = ProfileViewController()
+        secondVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person.fill"), tag: 1)
+        let thirdVC = CartViewController()
+        thirdVC.tabBarItem = UITabBarItem(title: "Cart", image: UIImage(systemName: "cart"), tag: 2)
+        let fourthVC = OrdersHistoryViewController()
+        fourthVC.tabBarItem = UITabBarItem(title: "History", image: UIImage(systemName: "list.bullet"), tag: 3)
+        tabBarController.setViewControllers([firstVC, secondVC, thirdVC, fourthVC], animated: false)
+
+        if #available(iOS 13.0, *) {
+            let tabBarAppearance: UITabBarAppearance = UITabBarAppearance()
+            tabBarAppearance.configureWithDefaultBackground()
+            tabBarAppearance.backgroundColor = UIColor(white: 1, alpha: 0.6)
+            UITabBar.appearance().standardAppearance = tabBarAppearance
+
+            if #available(iOS 15.0, *) {
+                UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
+            }
+        }
+        window.rootViewController = tabBarController
+        
+        window.makeKeyAndVisible()
+        
+        self.window = window
+        
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication,
-                     configurationForConnecting connectingSceneSession: UISceneSession,
-                     options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication,
-                     didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-    }
-
+    
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {

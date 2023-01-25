@@ -7,26 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41909CDB297EE0A4002D43D4 /* OrdersHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41909CDA297EE0A4002D43D4 /* OrdersHistoryViewController.swift */; };
+		41909CDD297EE0DC002D43D4 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41909CDC297EE0DC002D43D4 /* CartViewController.swift */; };
+		41909CDF297EE109002D43D4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41909CDE297EE109002D43D4 /* ProfileViewController.swift */; };
+		41909CE1297EE131002D43D4 /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41909CE0297EE131002D43D4 /* FoodListViewController.swift */; };
+		419E79A2297FE4F400F58B8D /* FoodListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E79A1297FE4F400F58B8D /* FoodListModel.swift */; };
+		419E79A4297FE54E00F58B8D /* FoodDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E79A3297FE54E00F58B8D /* FoodDescription.swift */; };
+		419E79A6297FE5F300F58B8D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E79A5297FE5F300F58B8D /* NetworkManager.swift */; };
+		419E79AA2981222700F58B8D /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E79A92981222700F58B8D /* FoodListView.swift */; };
+		419E79AC298128FE00F58B8D /* ViewLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E79AB298128FE00F58B8D /* ViewLoadable.swift */; };
+		419E79AF2981362D00F58B8D /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E79AE2981362D00F58B8D /* CategoryCollectionViewCell.swift */; };
+		419E79B12981363B00F58B8D /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E79B02981363B00F58B8D /* FoodCollectionViewCell.swift */; };
+		419E79B329813E9600F58B8D /* AdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E79B229813E9600F58B8D /* AdCollectionViewCell.swift */; };
 		41DB57EA297E925800EC4233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB57E9297E925800EC4233 /* AppDelegate.swift */; };
-		41DB57EC297E925800EC4233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB57EB297E925800EC4233 /* SceneDelegate.swift */; };
 		41DB57EE297E925800EC4233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB57ED297E925800EC4233 /* ViewController.swift */; };
 		41DB57F4297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41DB57F2297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodeld */; };
 		41DB57F6297E925D00EC4233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DB57F5297E925D00EC4233 /* Assets.xcassets */; };
 		41DB57F9297E925D00EC4233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DB57F7297E925D00EC4233 /* LaunchScreen.storyboard */; };
-		41DB5801297E92C900EC4233 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB5800297E92C900EC4233 /* TabBarController.swift */; };
 		E445CF3C8AA04A097DC4E988 /* Pods_mmmarinasel_food_delivery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB4D9EF5B42F81342870008 /* Pods_mmmarinasel_food_delivery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41909CDA297EE0A4002D43D4 /* OrdersHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersHistoryViewController.swift; sourceTree = "<group>"; };
+		41909CDC297EE0DC002D43D4 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		41909CDE297EE109002D43D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		41909CE0297EE131002D43D4 /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		419E79A1297FE4F400F58B8D /* FoodListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListModel.swift; sourceTree = "<group>"; };
+		419E79A3297FE54E00F58B8D /* FoodDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDescription.swift; sourceTree = "<group>"; };
+		419E79A5297FE5F300F58B8D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		419E79A92981222700F58B8D /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		419E79AB298128FE00F58B8D /* ViewLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoadable.swift; sourceTree = "<group>"; };
+		419E79AE2981362D00F58B8D /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		419E79B02981363B00F58B8D /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		419E79B229813E9600F58B8D /* AdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCollectionViewCell.swift; sourceTree = "<group>"; };
 		41DB57E6297E925800EC4233 /* mmmarinasel_food_delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmmarinasel_food_delivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DB57E9297E925800EC4233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41DB57EB297E925800EC4233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41DB57ED297E925800EC4233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41DB57F3297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mmmarinasel_food_delivery.xcdatamodel; sourceTree = "<group>"; };
 		41DB57F5297E925D00EC4233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41DB57F8297E925D00EC4233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41DB57FA297E925D00EC4233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41DB5800297E92C900EC4233 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4CB4D9EF5B42F81342870008 /* Pods_mmmarinasel_food_delivery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmmarinasel_food_delivery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2667FBAE09FBAD32A421DF /* Pods-mmmarinasel_food_delivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmmarinasel_food_delivery.release.xcconfig"; path = "Target Support Files/Pods-mmmarinasel_food_delivery/Pods-mmmarinasel_food_delivery.release.xcconfig"; sourceTree = "<group>"; };
 		B4F24F176A00FEE4F28BF66C /* Pods-mmmarinasel_food_delivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmmarinasel_food_delivery.debug.xcconfig"; path = "Target Support Files/Pods-mmmarinasel_food_delivery/Pods-mmmarinasel_food_delivery.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +67,11 @@
 		41909CC3297EB7E4002D43D4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				41909CD6297EE04D002D43D4 /* OrdersHistory */,
+				41909CD2297EE02A002D43D4 /* Map */,
+				41909CCE297EDFE5002D43D4 /* Cart */,
+				41909CCA297EDFC6002D43D4 /* Profile */,
+				41909CC6297EDF8E002D43D4 /* FoodList */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -54,6 +79,7 @@
 		41909CC4297EB7ED002D43D4 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				419E79A5297FE5F300F58B8D /* NetworkManager.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -61,8 +87,182 @@
 		41909CC5297EB7F4002D43D4 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				419E79AB298128FE00F58B8D /* ViewLoadable.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		41909CC6297EDF8E002D43D4 /* FoodList */ = {
+			isa = PBXGroup;
+			children = (
+				41909CC9297EDFA8002D43D4 /* Model */,
+				41909CC8297EDFA2002D43D4 /* View */,
+				41909CC7297EDF9A002D43D4 /* ViewModel */,
+			);
+			path = FoodList;
+			sourceTree = "<group>";
+		};
+		41909CC7297EDF9A002D43D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41909CC8297EDFA2002D43D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				419E79AD2981361A00F58B8D /* Cells */,
+				41909CE0297EE131002D43D4 /* FoodListViewController.swift */,
+				419E79A92981222700F58B8D /* FoodListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41909CC9297EDFA8002D43D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				419E79A1297FE4F400F58B8D /* FoodListModel.swift */,
+				419E79A3297FE54E00F58B8D /* FoodDescription.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41909CCA297EDFC6002D43D4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				41909CCD297EDFDC002D43D4 /* Model */,
+				41909CCC297EDFD5002D43D4 /* View */,
+				41909CCB297EDFCD002D43D4 /* ViewModel */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		41909CCB297EDFCD002D43D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41909CCC297EDFD5002D43D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41909CDE297EE109002D43D4 /* ProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41909CCD297EDFDC002D43D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41909CCE297EDFE5002D43D4 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				41909CD1297EE01B002D43D4 /* Model */,
+				41909CD0297EE015002D43D4 /* View */,
+				41909CCF297EE00D002D43D4 /* ViewModel */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		41909CCF297EE00D002D43D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41909CD0297EE015002D43D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41909CDC297EE0DC002D43D4 /* CartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41909CD1297EE01B002D43D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41909CD2297EE02A002D43D4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				41909CD5297EE03F002D43D4 /* Model */,
+				41909CD4297EE039002D43D4 /* View */,
+				41909CD3297EE031002D43D4 /* ViewModel */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		41909CD3297EE031002D43D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41909CD4297EE039002D43D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41909CD5297EE03F002D43D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41909CD6297EE04D002D43D4 /* OrdersHistory */ = {
+			isa = PBXGroup;
+			children = (
+				41909CD9297EE060002D43D4 /* Model */,
+				41909CD8297EE05B002D43D4 /* View */,
+				41909CD7297EE053002D43D4 /* ViewModel */,
+			);
+			path = OrdersHistory;
+			sourceTree = "<group>";
+		};
+		41909CD7297EE053002D43D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41909CD8297EE05B002D43D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41909CDA297EE0A4002D43D4 /* OrdersHistoryViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41909CD9297EE060002D43D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		419E79AD2981361A00F58B8D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				419E79B229813E9600F58B8D /* AdCollectionViewCell.swift */,
+				419E79AE2981362D00F58B8D /* CategoryCollectionViewCell.swift */,
+				419E79B02981363B00F58B8D /* FoodCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		41DB57DD297E925800EC4233 = {
@@ -90,8 +290,6 @@
 				41909CC4297EB7ED002D43D4 /* Service */,
 				41909CC3297EB7E4002D43D4 /* Screens */,
 				41DB57E9297E925800EC4233 /* AppDelegate.swift */,
-				41DB57EB297E925800EC4233 /* SceneDelegate.swift */,
-				41DB5800297E92C900EC4233 /* TabBarController.swift */,
 				41DB57ED297E925800EC4233 /* ViewController.swift */,
 				41DB57F5297E925D00EC4233 /* Assets.xcassets */,
 				41DB57F7297E925D00EC4233 /* LaunchScreen.storyboard */,
@@ -232,11 +430,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419E79AC298128FE00F58B8D /* ViewLoadable.swift in Sources */,
+				41909CDF297EE109002D43D4 /* ProfileViewController.swift in Sources */,
+				41909CE1297EE131002D43D4 /* FoodListViewController.swift in Sources */,
+				419E79A6297FE5F300F58B8D /* NetworkManager.swift in Sources */,
+				41909CDB297EE0A4002D43D4 /* OrdersHistoryViewController.swift in Sources */,
+				419E79A2297FE4F400F58B8D /* FoodListModel.swift in Sources */,
+				419E79B12981363B00F58B8D /* FoodCollectionViewCell.swift in Sources */,
+				419E79AF2981362D00F58B8D /* CategoryCollectionViewCell.swift in Sources */,
+				419E79A4297FE54E00F58B8D /* FoodDescription.swift in Sources */,
 				41DB57EE297E925800EC4233 /* ViewController.swift in Sources */,
+				41909CDD297EE0DC002D43D4 /* CartViewController.swift in Sources */,
 				41DB57EA297E925800EC4233 /* AppDelegate.swift in Sources */,
+				419E79B329813E9600F58B8D /* AdCollectionViewCell.swift in Sources */,
 				41DB57F4297E925800EC4233 /* mmmarinasel_food_delivery.xcdatamodeld in Sources */,
-				41DB5801297E92C900EC4233 /* TabBarController.swift in Sources */,
-				41DB57EC297E925800EC4233 /* SceneDelegate.swift in Sources */,
+				419E79AA2981222700F58B8D /* FoodListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
